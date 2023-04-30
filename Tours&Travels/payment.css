@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background: #0c2844;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    background-color: silver;
+    max-width: 1000px;
+    max-height: 800px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+
+    
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+.happy{
+    color: darkgoldenrod;
+}
